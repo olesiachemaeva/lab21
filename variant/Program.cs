@@ -56,9 +56,9 @@ namespace variant
 
         private static void sad2()
         {
-            for (int i = m - 1; i > 0; i--)
+            for (int i = m - 1; i >= 0; i--)
             {
-                for (int j = n - 1; j > 0; j--)
+                for (int j = n - 1; j >= 0; j--)
                 {
                     if (pole[j, i] == 0)
                         pole[j, i] = 2;
